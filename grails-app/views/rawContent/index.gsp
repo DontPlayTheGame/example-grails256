@@ -34,7 +34,7 @@
         </tr>
         <tr>
             <td>${'${raw(content)}'}</td>
-            <td>${raw(content)}</td></tr>
+            <td><div>${raw(content)}</div></td></tr>
         <tr>
             <td>${'${content.encodeAsRaw()}'}</td>
             <td>${content.encodeAsRaw()}</td>
